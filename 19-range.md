@@ -41,6 +41,15 @@ print(result)
 ```
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
+```
+x = range(1,11)
+result = tuple(x)
+print(result)
+```
+***Output***
+```
+(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+```
 
 >**Notes:**
 >- Here, the start of the sequence `1` is inclusive, but the end `11` is exclusive. That's why it gives us a sequence from `1` up to `10`, and not `1` up to `11`.
